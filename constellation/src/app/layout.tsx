@@ -40,6 +40,9 @@ export default function RootLayout({
         className={`${inter.variable} ${grotesk.variable} font-sans antialiased`}
       >
         {children}
+        <footer className="fixed bottom-2 right-4 text-xs text-white/40 z-50 pointer-events-none select-none">
+          Made by Hassan Sultan
+        </footer>
       </body>
     </html>
   );
